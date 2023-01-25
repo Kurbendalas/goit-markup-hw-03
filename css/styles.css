@@ -14,6 +14,11 @@ h5,
 h6,
 p {
   list-style: none;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
 }
 .button {
   font-family: 'Roboto', sans-serif;
@@ -46,7 +51,10 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding-left: 40px;
-  margin: 24px 0 24px 76px;
+}
+.items {
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -141,9 +149,14 @@ body {
   background: #404bbf;
 }
 /* section 1 */
-.section-advantages {
+.section-advantages-alltext {
   width: 1128px;
-  margin: 120px 156px 120px 156px;
+}
+.section-advantages {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 .section-advanteges-alltext {
   padding-left: 24px;
@@ -155,12 +168,12 @@ body {
   margin-top: 792px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 .section-advantages-txt {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  width: 264px;
   color: #434455;
 }
 /* section 2 */
@@ -172,6 +185,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-bottom: 76px;
 }
 .section-activity-photo {
   margin-left: 156px;
@@ -192,9 +206,11 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 .section-team-photo {
-  display: flex;
+  display: block;
   padding-left: 24px;
 }
 .section-team-name {
@@ -214,11 +230,8 @@ body {
 }
 /* footer */
 .footer {
-  width: 1640px;
-  height: 310px;
-  left: 0px;
-  top: 2280px;
   background: #2e2f42;
+  margin-top: 1000px;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
@@ -230,7 +243,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-left: 156px;
 }
 .logo-txt-footer {
   font-family: 'Raleway', sans-serif;
@@ -243,7 +255,7 @@ body {
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer-txt {
+.txt-footer {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -287,6 +299,7 @@ body {
 /* img */
 .gallery {
   margin-left: 156px;
+  display: block;
 }
 .photo {
   padding-left: 24px;
@@ -309,9 +322,11 @@ body {
 }
 .gallery-list {
   display: flex;
+  margin-bottom: 120px;
 }
 /* footer */
 .footer {
+  border: none;
   position: absolute;
   width: 1440px;
   height: 310px;
