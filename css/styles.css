@@ -99,12 +99,12 @@ body {
 }
 /* hero */
 .hero-beck {
-  background: #2e2f42;
   position: absolute;
   width: 1440px;
   height: 600px;
   left: 0px;
   top: 72px;
+  background: #2e2f42;
 }
 .hero {
   font-weight: 700;
@@ -112,8 +112,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-top: 188px;
-  margin-left: 473px;
+  margin: 188px 470px 292px 473px;
   color: #ffffff;
 }
 .btn-0 {
@@ -142,6 +141,13 @@ body {
   background: #404bbf;
 }
 /* section 1 */
+.section-advantages {
+  width: 1128px;
+  margin: 120px 156px 120px 156px;
+}
+.section-advanteges-alltext {
+  padding-left: 24px;
+}
 .section-advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -154,6 +160,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  width: 264px;
   color: #434455;
 }
 /* section 2 */
