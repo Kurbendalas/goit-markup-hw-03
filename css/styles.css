@@ -29,6 +29,12 @@ body {
 }
 /* heder */
 .heder {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -94,6 +100,11 @@ body {
 /* hero */
 .hero-beck {
   background: #2e2f42;
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
 }
 .hero {
   font-weight: 700;
