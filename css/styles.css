@@ -21,6 +21,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+.navigation {
+  display: flex;
+}
 .button {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -49,11 +52,14 @@ body {
 }
 /* main */
 .menu-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -98,6 +104,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-right: 76px;
 }
 .logo-txt {
   color: #2e2f42;
@@ -180,9 +189,6 @@ body {
 }
 /* section 3 */
 .section-team {
-  width: 1640px;
-  left: 0px;
-  top: 1248px;
   background: #f4f4fd;
 }
 .section-team-title {
@@ -218,7 +224,6 @@ body {
 /* footer */
 .footer {
   background: #2e2f42;
-  margin-top: 1000px;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
@@ -265,6 +270,10 @@ body {
 .button {
   padding: 16px 32px;
   cursor: pointer;
+  margin-top: 96px;
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .btn {
   background-color: #f4f4fd;
@@ -314,10 +323,6 @@ body {
 /* footer */
 .footer {
   border: none;
-  position: absolute;
-  width: 1440px;
-  left: 0px;
-  top: 1764px;
   background: #2e2f42;
 }
 .footer-logo {
@@ -331,7 +336,8 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-left: 156px;
-  margin-top: 120px;
+  padding-top: 100px;
+  padding-bottom: 16px;
 }
 .footer-logo-txt {
   font-family: 'Raleway', sans-serif;
