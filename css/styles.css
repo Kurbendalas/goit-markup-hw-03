@@ -99,6 +99,7 @@ body {
   display: flex;
   gap: 40px;
   padding: 24px 0px;
+  margin-left: auto;
 }
 /* logo */
 .logo {
