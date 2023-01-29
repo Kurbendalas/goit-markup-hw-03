@@ -60,6 +60,9 @@ body {
   padding-bottom: 24px;
   padding-right: 40px;
 }
+.menu {
+  display: flex;
+}
 .items {
   display: flex;
 }
@@ -95,6 +98,7 @@ body {
 .contact-link {
   display: flex;
   gap: 40px;
+  padding: 24px 0px;
 }
 /* logo */
 .logo {
