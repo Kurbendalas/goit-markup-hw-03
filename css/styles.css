@@ -306,7 +306,8 @@ body {
   border-radius: 4px;
 }
 .btn-all {
-  padding: 0px 427px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   gap: 24px;
 }
