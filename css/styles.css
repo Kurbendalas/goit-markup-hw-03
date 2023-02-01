@@ -1,6 +1,7 @@
 /* Studio */
 .list {
   list-style: none;
+  display: flex;
 }
 .link {
   text-decoration: none;
