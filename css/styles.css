@@ -61,7 +61,6 @@ body {
 }
 .menu {
   display: flex;
-  padding: 24px 0px;
   border-bottom: 1px solid #e7e9fc;
 }
 .items {
@@ -155,6 +154,9 @@ body {
   background: #404bbf;
 }
 /* section 1 */
+.advanteges-txt {
+  display: flex;
+}
 .section-advantages {
   padding: 120px 0px;
 }
@@ -217,7 +219,10 @@ body {
   gap: 24px;
 }
 .team-photo-beck {
+  border-radius: 0 0 4px 0px;
   background-color: white;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .section-team-photo {
   display: flex;
@@ -244,6 +249,7 @@ body {
 /* footer */
 .footer {
   background: #2e2f42;
+  padding: 100px 0px;
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
@@ -256,7 +262,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
-  padding-top: 100px;
 }
 .logo-txt-footer {
   font-family: 'Raleway', sans-serif;
@@ -301,6 +306,7 @@ body {
   display: flex;
 }
 .btn {
+  font-weight: 500;
   background-color: #f4f4fd;
   color: #4d5ae5;
   border-radius: 4px;
@@ -330,12 +336,10 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-left: 30px;
   color: #2e2f42;
   margin-bottom: 8px;
 }
 .gallery-desxription {
-  margin-left: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -343,6 +347,8 @@ body {
   color: #434455;
 }
 .photo-txt-portfolio {
+  border-top: none;
+  border: 1px solid #e7e9fc;
   padding: 32px 16px;
 }
 .portfolio-photo-beck {
