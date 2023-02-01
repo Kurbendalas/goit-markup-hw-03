@@ -156,13 +156,13 @@ body {
 }
 /* section 1 */
 .advanteges-txt {
+  gap: 24px;
   display: flex;
 }
 .section-advantages {
   padding: 120px 0px;
 }
 .section-advanteges-alltext {
-  gap: 24px;
   width: 264px;
 }
 .section-advantages-title {
