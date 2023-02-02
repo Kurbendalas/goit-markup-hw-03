@@ -263,7 +263,21 @@ body {
   height: 40px;
   border-radius: 50%;
   background: #4d5ae5;
+  gap: 0 24 0 0px;
 }
+.icon-team {
+  background: #f4f4fd;
+}
+/* SECTION 4 */
+.customers-icon {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.icon-customers {
+}
+
 /* footer */
 .footer {
   background: #2e2f42;
@@ -298,6 +312,24 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   width: 256px;
+}
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-icon:hover {
+  background: #31d0aa;
+}
+.footer-icon-txt {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.icon-footer {
 }
 /* Portfolio */
 /* heder */
