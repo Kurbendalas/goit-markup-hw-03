@@ -272,8 +272,6 @@ body {
 .customers-icon {
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
 }
 .icon-customers {
 }
@@ -328,8 +326,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  color: #ffffff;
 }
 .icon-footer {
+  width: 24px;
+  height: 24px;
 }
 /* Portfolio */
 /* heder */
