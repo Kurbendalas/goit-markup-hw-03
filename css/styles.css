@@ -1,7 +1,6 @@
 /* Studio */
 .list {
   list-style: none;
-  display: flex;
 }
 .link {
   text-decoration: none;
@@ -123,10 +122,12 @@ body {
 }
 /* hero */
 .hero-beck {
+  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
-  background: #2e2f42;
+  background-image: url(../img/brckground/people-office.jpg);
+  background-size: cover;
 }
 .hero {
   font-weight: 700;
@@ -158,6 +159,8 @@ body {
 .advanteges-txt {
   gap: 24px;
   display: flex;
+  padding-left: auto;
+  padding-right: auto;
 }
 .section-advantages {
   padding: 120px 0px;
@@ -247,6 +250,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.team-icon {
+  background: #4d5ae5;
+}
 /* footer */
 .footer {
   background: #2e2f42;
@@ -326,6 +332,7 @@ body {
 }
 /* img */
 .gallery {
+  display: flex;
   margin-top: 72px;
   margin-left: auto;
   margin-right: auto;
