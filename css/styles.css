@@ -127,11 +127,10 @@ body {
   padding-bottom: 188px;
   text-align: center;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    )
+      rgba(55, 58, 104, 0.7),
+      rgba(55, 58, 104, 0.7)
+    ),
     url(../img/brckground/people-office.jpg);
-  background-size: cover;
 }
 .hero {
   font-weight: 700;
@@ -187,6 +186,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.advantages-icon {
+  background: #f4f4fd;
+  width: 264px;
 }
 /* section 2 */
 .section-activity-all {
