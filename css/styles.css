@@ -348,6 +348,8 @@ body {
   color: #ffffff;
   align-items: center;
   justify-content: center;
+  margin-top: -125px;
+  margin-bottom: 16px;
 }
 .footer-icon-all {
   gap: 16px;
