@@ -272,6 +272,9 @@ body {
   border-radius: 50%;
   background: #4d5ae5;
 }
+.team-icon {
+  fill: white;
+}
 /* SECTION 4 */
 .customers-icon {
   width: 104px;
