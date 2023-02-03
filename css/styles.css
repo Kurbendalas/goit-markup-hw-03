@@ -296,6 +296,9 @@ body {
   width: 168px;
   gap: 24px;
 }
+.customers-logo {
+  fill: #8e8f99;
+}
 /* footer */
 .footer {
   background: #2e2f42;
