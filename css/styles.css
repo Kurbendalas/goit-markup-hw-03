@@ -258,15 +258,24 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.team-icon {
+.team-icon-all {
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+}
+.social-team {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background: #4d5ae5;
-  gap: 0 24 0 0px;
 }
-.icon-team {
+
+.team-icon {
   background: #f4f4fd;
+  border-radius: 50%;
 }
 /* SECTION 4 */
 .customers-icon {
@@ -312,26 +321,15 @@ body {
   color: #e7e9fc;
   width: 256px;
 }
-.footer-icon {
-  width: 24px;
-  height: 24px;
-}
-.footer-icon:hover {
-  background: #31d0aa;
-}
 .footer-icon-txt {
+  display: flex;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
-}
-.bg-footer-icon {
-  width: 40px;
-  height: 40px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
+  margin-left: auto;
 }
 /* Portfolio */
 /* heder */
