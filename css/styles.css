@@ -170,8 +170,6 @@ body {
 }
 .section-advanteges-alltext {
   width: 264px;
-  background: #f4f4fd;
-  height: 100px;
 }
 .section-advantages-title {
   font-weight: 500;
@@ -182,16 +180,18 @@ body {
   margin-bottom: 8px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 32px;
+  padding-top: 8px;
 }
 .section-advantages-txt {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
 }
-.advantages-icon {
-  background: black;
+.advantages-icon-all {
+  height: 112px;
+  background: #f4f4fd;
+  padding-left: 100px;
+  padding-top: 24px;
 }
 /* section 2 */
 .section-activity-all {
@@ -277,13 +277,24 @@ body {
   fill: white;
 }
 /* SECTION 4 */
-.customers-icon {
-  width: 104px;
-  height: 56px;
+.customers {
+  padding-top: 120px;
+  padding-bottom: 130px;
+}
+.customers-txt {
+  padding-bottom: 72px;
+  padding-left: 472px;
+}
+.customers-icon-all {
+  display: flex;
+  gap: 24px;
 }
 .bg-customers-icon {
+  display: flex;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
   width: 168px;
-  height: 88px;
+  gap: 24px;
 }
 /* footer */
 .footer {
@@ -328,20 +339,32 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
-  margin-left: auto;
+  align-items: center;
+  justify-content: center;
 }
 .footer-icon-all {
-  display: flex;
   gap: 16px;
+  display: flex;
+  justify-content: center;
 }
 .bg-footer-icon {
-  background: rgba(255, 255, 255, 0.1);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
 }
 .footer-icon {
-  fill: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.footer-icon-link {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  height: 40px;
+  width: 40px;
+}
+.footer-icon-link:hover {
+  background: #31d0aa;
 }
 /* Portfolio */
 /* heder */
