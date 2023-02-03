@@ -373,6 +373,10 @@ body {
 .footer-icon-link:hover {
   background: #31d0aa;
 }
+.container-footer {
+  display: flex;
+  flex-direction: column;
+}
 /* Portfolio */
 /* heder */
 .header {
