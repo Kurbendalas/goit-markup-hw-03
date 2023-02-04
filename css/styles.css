@@ -325,7 +325,7 @@ body {
 }
 .customers-logo:hover,
 .customers-logo:focus {
-  fill: currentColor;
+  fill: #404bbf;
 }
 /* footer */
 .all-footer {
