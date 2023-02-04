@@ -122,15 +122,16 @@ body {
 }
 /* hero */
 .hero-beck {
-  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
   background-image: linear-gradient(
-      rgba(55, 58, 104, 0.7),
-      rgba(55, 58, 104, 0.7)
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
     ),
     url(../img/brckground/people-office.jpg);
+  margin: 0 auto;
+  background-repeat: repeat;
 }
 .hero {
   font-weight: 700;
@@ -180,7 +181,7 @@ body {
   margin-bottom: 8px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 .section-advantages-txt {
   font-size: 16px;
@@ -188,10 +189,11 @@ body {
   letter-spacing: 0.02em;
 }
 .advantages-icon-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 112px;
   background: #f4f4fd;
-  padding-left: 100px;
-  padding-top: 24px;
 }
 /* section 2 */
 .section-activity-all {
@@ -260,6 +262,7 @@ body {
   color: #434455;
 }
 .team-icon-all {
+  margin-top: 8px;
   gap: 24px;
   display: flex;
   justify-content: center;
@@ -276,6 +279,10 @@ body {
 .team-icon {
   fill: white;
 }
+.social-team:hover,
+.social-team:focus {
+  background: #404bbf;
+}
 /* 
 ==================
      SECTION 4
@@ -286,8 +293,13 @@ body {
   padding-bottom: 130px;
 }
 .customers-txt {
-  padding-bottom: 72px;
-  padding-left: 472px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  margin-bottom: 72px;
+  text-align: center;
 }
 .customers-icon-all {
   display: flex;
@@ -295,15 +307,31 @@ body {
 }
 .bg-customers-icon {
   display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 168px;
   gap: 24px;
+  height: 88px;
+  color: #8e8f99;
+}
+.bg-customers-icon:hover,
+.bg-customers-icon:focus {
+  border: 1px solid #404bbf;
 }
 .customers-logo {
-  fill: #8e8f99;
+  fill: currentColor;
+}
+.customers-logo:hover,
+.customers-logo:focus {
+  fill: currentColor;
 }
 /* footer */
+.all-footer {
+  display: flex;
+  gap: 120px;
+}
 .footer {
   background: #2e2f42;
   padding: 100px 0px;
@@ -339,29 +367,23 @@ body {
   width: 256px;
 }
 .footer-icon-txt {
-  display: flex;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
-  align-items: center;
-  justify-content: center;
-  margin-top: -125px;
   margin-bottom: 16px;
 }
 .footer-icon-all {
   gap: 16px;
   display: flex;
-  justify-content: center;
-}
-.bg-footer-icon {
 }
 .footer-icon {
   align-items: center;
   display: flex;
   justify-content: center;
+  fill: #f4f4fd;
 }
 .footer-icon-link {
   align-items: center;
@@ -378,6 +400,8 @@ body {
 .container-footer {
   display: flex;
   flex-direction: column;
+}
+.container-footer-icon {
 }
 /* Portfolio */
 /* heder */
