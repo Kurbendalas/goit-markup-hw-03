@@ -38,14 +38,11 @@ ul {
 body {
   font-family: 'Roboto', sans-serif;
 }
-/* heder */
-.heder {
+/* header */
+.header {
   box-sizing: border-box;
-  position: absolute;
-  width: 1440px;
-  left: 0px;
-  top: 0px;
   background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 /* main */
 .menu-link {
@@ -61,7 +58,6 @@ body {
 }
 .menu {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
 }
 .items {
   display: flex;
@@ -131,7 +127,9 @@ body {
     ),
     url(../img/brckground/people-office.jpg);
   margin: 0 auto;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1440px;
 }
 .hero {
   font-weight: 700;
@@ -319,6 +317,7 @@ body {
 .bg-customers-icon:hover,
 .bg-customers-icon:focus {
   border: 1px solid #404bbf;
+  color: #404bbf;
 }
 .customers-logo {
   fill: currentColor;
@@ -404,16 +403,6 @@ body {
 .container-footer-icon {
 }
 /* Portfolio */
-/* heder */
-.header {
-  box-sizing: border-box;
-  position: absolute;
-  width: 1440px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
-  border-bottom: 1px solid #e7e9fc;
-}
 /* section */
 .portfolio {
   padding-top: 96px;
