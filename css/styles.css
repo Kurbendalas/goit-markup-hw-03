@@ -324,7 +324,7 @@ body {
 }
 .customers-logo:hover,
 .customers-logo:focus {
-  color: #404bbf;
+  color: currentColor;
 }
 /* footer */
 .all-footer {
