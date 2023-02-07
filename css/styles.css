@@ -460,6 +460,32 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+.portfolio-photo {
+  width: 360px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4d5ae5;
+  background-blend-mode: soft-light;
+  mix-blend-mode: normal;
+  color: #ffffff;
+  padding: 10px;
+  line-height: 1.2;
+  overflow: auto;
+  transform: translateY(100%);
+  transition: transform 250ms linear;
+}
+.portfolio-photo-beck:hover .overlay,
+.portfolio-photo-beck:focus .overlay {
+  transform: translateY(0%);
+}
 .gallery-txt {
   font-weight: 500;
   font-size: 20px;
