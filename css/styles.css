@@ -484,7 +484,12 @@ body {
 }
 .portfolio-photo-beck:hover .overlay,
 .portfolio-photo-beck:focus .overlay {
+  width: 360px;
+  height: 300px;
   transform: translateY(0%);
+}
+.photo-items {
+  position: relative;
 }
 .gallery-txt {
   font-weight: 500;
@@ -517,6 +522,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
+  visibility: hidden;
 }
 .modal {
   position: absolute;
@@ -545,4 +551,7 @@ body {
   border-radius: 50%;
 }
 .modal-icon {
+}
+.close-black {
+  fill: #000;
 }

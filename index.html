@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <script src="./js/modal.js"></script>
     <!-- HEDER -->
     <header class="header">
       <div class="container menu">
@@ -61,7 +60,9 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button type="button" class="btn-0 button">Order Service</button>
+          <button data-modal-open type="button" class="btn-0 button">
+            Order Service
+          </button>
         </div>
       </section>
       <!-- SECTION 1 -->
@@ -490,14 +491,15 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop" is-hidden data-modal>
       <div class="modal">
-        <button class="modal-btn" type="button">
+        <button data-modal-close class="modal-btn" type="button">
           <svg class="modal-icon" width="30" height="30">
-            <use href="./img/icons.svg#close-black"></use>
+            <use class="close-black" href="./img/icons.svg#close-black"></use>
           </svg>
         </button>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
