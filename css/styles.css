@@ -461,8 +461,6 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-photo {
-  width: 360px;
-  height: 300px;
   position: relative;
   overflow: hidden;
 }
@@ -472,9 +470,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #4d5ae5;
-  background-blend-mode: soft-light;
-  mix-blend-mode: normal;
+  background-color: #4d5ae5;
   color: #ffffff;
   padding: 10px;
   line-height: 1.2;
@@ -484,8 +480,6 @@ body {
 }
 .portfolio-photo-beck:hover .overlay,
 .portfolio-photo-beck:focus .overlay {
-  width: 360px;
-  height: 300px;
   transform: translateY(0%);
 }
 .photo-items {
