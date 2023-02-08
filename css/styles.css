@@ -484,6 +484,7 @@ body {
 }
 .photo-items {
   position: relative;
+  overflow: hidden;
 }
 .gallery-txt {
   font-weight: 500;
