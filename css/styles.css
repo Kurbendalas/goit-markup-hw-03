@@ -56,10 +56,13 @@ body {
   padding-top: 24px;
   padding-bottom: 24px;
   gap: 40px;
-  position: relative;
+
   transition: transform 250ms linear;
 }
-.menu-link.link::after {
+.current {
+  position: relative;
+}
+.current::after {
   content: '';
   position: absolute;
   left: 0;
