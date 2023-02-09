@@ -4,6 +4,7 @@
 }
 .link {
   text-decoration: none;
+  position: relative;
 }
 h1,
 h2,
@@ -56,8 +57,9 @@ body {
   padding-bottom: 24px;
   gap: 40px;
   position: relative;
+  transition: transform 250ms linear;
 }
-.menu-link::after {
+.menu-link.link::after {
   content: '';
   position: absolute;
   left: 0;
@@ -103,6 +105,7 @@ body {
 .contact-phone:hover,
 .contact-phone:focus {
   color: #404bbf;
+  transition: transform 250ms linear;
 }
 .contact-link {
   display: flex;
@@ -166,6 +169,7 @@ body {
 }
 .btn-0:hover,
 .btn-0:focus {
+  transition: transform 250ms linear;
   background: #404bbf;
 }
 /* section 1 */
@@ -290,6 +294,7 @@ body {
 }
 .social-team:hover,
 .social-team:focus {
+  transition: transform 250ms linear;
   background: #404bbf;
 }
 /* 
@@ -327,6 +332,7 @@ body {
 }
 .bg-customers-icon:hover,
 .bg-customers-icon:focus {
+  transition: transform 250ms linear;
   border: 1px solid #404bbf;
   color: #404bbf;
 }
@@ -335,6 +341,7 @@ body {
 }
 .customers-logo:hover,
 .customers-logo:focus {
+  transition: transform 250ms linear;
   color: currentColor;
 }
 /* footer */
@@ -405,6 +412,7 @@ body {
   width: 40px;
 }
 .footer-icon-link:hover {
+  transition: transform 250ms linear;
   background: #31d0aa;
 }
 .container-footer {
@@ -442,6 +450,7 @@ body {
 }
 .btn:hover,
 .btn:focus {
+  transition: transform 250ms linear;
   background-color: #404bbf;
   color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -457,6 +466,7 @@ body {
   gap: 48px 24px;
 }
 .portfolio-photo-beck:hover {
+  transition: transform 250ms linear;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -470,13 +480,15 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #4d5ae5;
+
   color: #ffffff;
   padding: 10px;
   line-height: 1.2;
   overflow: auto;
+  background-color: #4d5ae5;
   transform: translateY(100%);
   transition: transform 250ms linear;
+  padding: 40px 32px;
 }
 .portfolio-photo-beck:hover .overlay,
 .portfolio-photo-beck:focus .overlay {
@@ -520,7 +532,14 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.backdrop.is-hidden {
+  opacity: 0;
   visibility: hidden;
+  pointer-events: none;
 }
 .modal {
   position: absolute;
@@ -547,4 +566,7 @@ body {
   background: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+}
+.close-black {
+  fill: #000;
 }
