@@ -767,6 +767,7 @@ body {
   justify-content: center;
 }
 .backdrop-btn-txt {
+  margin-right: 120px;
   color: #ffffff;
 }
 .btn-bd {
