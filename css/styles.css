@@ -573,3 +573,157 @@ body {
 .close-black {
   fill: #000;
 }
+.footer-btn {
+  border: #4d5ae5;
+  background: #4d5ae5;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  width: 165px;
+  height: 40px;
+}
+.footer-btn-txt {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.telegram {
+  fill: #ffffff;
+}
+.backdrop-txt {
+  padding-top: 72px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.user_name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  width: 360px;
+  height: 58px;
+  margin-bottom: 8px;
+  color: #8e8f99;
+}
+.user-name-input {
+  height: 40px;
+  width: 360px;
+  left: 0px;
+  top: 18px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+.user-name-input:hover,
+.user-name-input:focus {
+  border: 1px solid #4d5ae5;
+}
+.user-phone {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  width: 360px;
+  height: 58px;
+  margin-bottom: 8px;
+  color: #8e8f99;
+}
+.user-phone-input {
+  height: 40px;
+  width: 360px;
+  left: 0px;
+  top: 18px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+.user-phone-input:hover,
+.user-phone-input:focus {
+  border: 1px solid #4d5ae5;
+}
+.user-phone-txt {
+}
+.user-email {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  width: 360px;
+  height: 58px;
+  margin-bottom: 8px;
+  color: #8e8f99;
+}
+.user-email-input {
+  height: 40px;
+  width: 360px;
+  left: 0px;
+  top: 18px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+.user-email-input:hover,
+.user-email-input:focus {
+  border: 1px solid #4d5ae5;
+}
+.user-email-txt {
+}
+.user-comment {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  width: 360px;
+  height: 138px;
+  color: #8e8f99;
+}
+.user-comment-input {
+  height: 120px;
+  width: 360px;
+  left: 0px;
+  top: 216px;
+  border-radius: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+}
+.user-comment-input:hover,
+.user-comment-input:focus {
+  border: 1px solid #4d5ae5;
+}
+.user-comment-txt {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+}
+.text-input {
+}
+.Privacy-Policy {
+}
+.privacy_policy-txt {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #757575;
+}
+.backdrop-btn {
+}
+.backdrop-btn-txt {
+}
+.backdrop-all {
+  padding-left: 24px;
+  padding-right: 24px;
+}
