@@ -489,14 +489,15 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="footer-subscribe-form">
+          <p class="subscribe-form-txt">Subscribe</p>
           <form
             class="subscribe-form"
             name="Subscribe_form"
             method="post"
             action=""
           >
-            <input type="email" placeholder="Email" />
+            <input class="input-footer" type="email" placeholder="Email" />
             <button type="submit" class="footer-btn">
               <span class="footer-btn-txt">Subscribe</span>
               <svg class="telegram" whidth="24px" height="20px">
@@ -560,14 +561,15 @@
           </li>
           <li class="user-comment">
             <label for="user_comment" class="user-comment-txt">Comment</label>
-            <input
+            <textarea
               placeholder="Text input"
               type="text"
               class="user-comment-input"
               name="user_comment"
               id="user_comment"
-            />
+            ></textarea>
           </li>
+
           <li class="Privacy-Policy">
             <input type="checkbox" name="Privacy_Policy" id="Privacy_Policy" />
             <label for="Privacy_Policy" class="privacy_policy-txt"
@@ -576,9 +578,11 @@
             >
           </li>
         </ul>
-        <button class="backdrop-btn" type="submit">
-          <span class="backdrop-btn-txt">Send</span>
-        </button>
+        <div class="btn-bd">
+          <button class="backdrop-btn btn-bd" type="submit">
+            <span class="backdrop-btn-txt">Send</span>
+          </button>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
