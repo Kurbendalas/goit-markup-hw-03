@@ -618,6 +618,7 @@ body {
   width: 165px;
   height: 40px;
   margin-top: 16px;
+  cursor: pointer;
 }
 .footer-btn-txt {
   font-family: 'Roboto';
@@ -629,9 +630,12 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
+  height: 24px;
 }
 .telegram {
   fill: #ffffff;
+  height: 20px;
+  width: 24px;
 }
 .backdrop-txt {
   padding-top: 72px;
@@ -767,6 +771,7 @@ body {
   border: 0;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .backdrop-btn-txt {
   margin-right: 120px;
