@@ -662,7 +662,6 @@ body {
   top: 18px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  transform: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-indent: 34px;
 }
 .user-name-input:hover,
@@ -694,6 +693,12 @@ body {
 .user-phone-input:focus {
   border: 1px solid #4d5ae5;
 }
+.user-phone-input:focus + svg {
+  fill: #4d5ae5;
+}
+.user-phone-input:focus::placeholder {
+  color: #ff6c00;
+}
 .user-phone-txt {
 }
 .user-email {
@@ -717,9 +722,8 @@ body {
   transform: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-indent: 34px;
 }
-.user-email-input:hover .modalbd-icon,
-.user-email-input:focus .modalbd-icon {
-  fill: #4d5ae5;
+.user-email-input:hover,
+.user-email-input:focus {
   border: 1px solid #4d5ae5;
 }
 .user-email-txt {
