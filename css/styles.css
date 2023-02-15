@@ -660,6 +660,8 @@ body {
   color: #8e8f99;
 }
 .user-name-input {
+  outline: none;
+  margin-top: 4px;
   height: 40px;
   width: 360px;
   left: 0px;
@@ -671,6 +673,12 @@ body {
 .user-name-input:hover,
 .user-name-input:focus {
   border: 1px solid #4d5ae5;
+}
+.user-name-input:focus + svg {
+  fill: #4d5ae5;
+}
+.user-name-input:focus::placeholder {
+  color: #4d5ae5;
 }
 .user-phone {
   font-family: 'Roboto';
@@ -684,6 +692,8 @@ body {
   color: #8e8f99;
 }
 .user-phone-input {
+  outline: none;
+  margin-top: 4px;
   height: 40px;
   width: 360px;
   left: 0px;
@@ -701,9 +711,7 @@ body {
   fill: #4d5ae5;
 }
 .user-phone-input:focus::placeholder {
-  color: #ff6c00;
-}
-.user-phone-txt {
+  color: #4d5ae5;
 }
 .user-email {
   font-family: 'Roboto';
@@ -717,6 +725,8 @@ body {
   color: #8e8f99;
 }
 .user-email-input {
+  outline: none;
+  margin-top: 4px;
   height: 40px;
   width: 360px;
   left: 0px;
@@ -730,7 +740,11 @@ body {
 .user-email-input:focus {
   border: 1px solid #4d5ae5;
 }
-.user-email-txt {
+.user-email-input:focus + svg {
+  fill: #4d5ae5;
+}
+.user-email-input:focus::placeholder {
+  color: #4d5ae5;
 }
 .user-comment {
   font-family: 'Roboto';
@@ -743,6 +757,10 @@ body {
   color: #8e8f99;
 }
 .user-comment-input {
+  padding-left: 16px;
+  padding-top: 8px;
+  resize: none;
+  outline: none;
   height: 120px;
   width: 360px;
   left: 0px;
@@ -770,15 +788,15 @@ body {
 }
 
 .bd-person {
-  top: 128px;
+  top: 132px;
 }
 .bd-phone {
   height: 24px;
-  top: 190px;
+  top: 194px;
 }
 .bd-email {
   height: 24px;
-  top: 256px;
+  top: 260px;
 }
 .modalbd-icon:hover,
 .modalbd-icon:focus {
@@ -793,28 +811,26 @@ body {
   color: #757575;
 }
 .backdrop-btn {
-  padding-left: 113px;
+  padding-left: 70px;
+  margin-left: 113px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: 0;
   width: 169px;
   height: 56px;
+  left: 635px;
+  top: 584px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border: 0;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-.backdrop-btn-txt {
-  margin-right: 120px;
-  color: #ffffff;
-}
-.btn-bd {
-  display: flex;
-  position: absolute;
-  padding-left: 113px;
 }
 .backdrop-all {
   margin-bottom: 24px;
