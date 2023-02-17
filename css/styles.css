@@ -434,6 +434,7 @@ body {
   color: #ffffff;
 }
 .input-footer {
+  color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   width: 264px;
@@ -597,16 +598,15 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover,
+.modal-btn:hover svg,
 .modal-btn:focus {
   background: #404bbf;
+  fill: #fff;
 }
+
 .modal-icon {
   fill: #000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-icon:hover,
-.modal-icon:focus {
-  fill: white;
 }
 .footer-btn {
   border: #4d5ae5;
@@ -622,8 +622,6 @@ body {
   height: 40px;
   margin-top: 16px;
   cursor: pointer;
-}
-.footer-btn-txt {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -633,7 +631,6 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  height: 24px;
 }
 .telegram {
   fill: #ffffff;
@@ -811,6 +808,7 @@ body {
   color: #757575;
 }
 .backdrop-btn {
+  margin-top: 24px;
   padding-left: 70px;
   margin-left: 113px;
   font-family: 'Roboto';
@@ -839,4 +837,11 @@ body {
   width: 16px;
   height: 16px;
   margin-top: 16px;
+}
+.privacy-policy-txt {
+  color: #4d5ae5;
+}
+.checkbox {
+  border: 1.25px solid #2e2f42;
+  border-radius: 2px;
 }
