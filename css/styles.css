@@ -540,6 +540,8 @@ body {
     flex-wrap: wrap;
   }
   .container-footer {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -572,19 +574,63 @@ body {
 @media screen and (min-width: 768px) {
   .all-footer {
     display: flex;
-    gap: 120px;
+    flex-wrap: wrap;
+    gap: 0;
   }
   .container-footer {
+    margin-left: 93px;
+    margin-right: 24px;
+    margin-bottom: 72px;
   }
-  .logo-footer {
+  .txt-footer {
+    width: 268px;
+  }
+  .container-footer-icon {
+    margin: 0;
+  }
+  .footer-icon-txt {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-subscribe-form {
+    margin-left: 93px;
+  }
+  .subscribe-form {
+    display: flex;
+    flex-direction: row;
+  }
+  .subscribe-form-txt {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer-btn {
+    display: flex;
+    margin: 16px auto;
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 1200px) {
   .all-footer {
-    display: flex;
-    gap: 120px;
   }
   .container-footer {
+    margin: 0;
+  }
+  .txt-footer {
+  }
+  .container-footer-icon {
+    margin-left: 120px;
+    margin-right: 80px;
+  }
+  .footer-icon-txt {
+  }
+  .footer-subscribe-form {
+    margin: 0;
+  }
+  .subscribe-form {
+  }
+  .subscribe-form-txt {
+  }
+  .footer-btn {
   }
 }
 
@@ -676,10 +722,6 @@ body {
 .footer-icon-link:hover,
 .footer-icon-link:focus {
   background: #31d0aa;
-}
-.container-footer {
-  display: flex;
-  flex-direction: column;
 }
 .subscribe-form-txt {
   font-family: 'Roboto';
@@ -872,9 +914,6 @@ body {
   border: #4d5ae5;
   background: #4d5ae5;
   border-radius: 4px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
   padding: 8px 24px;
   gap: 16px;
@@ -887,8 +926,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #ffffff;
 }
