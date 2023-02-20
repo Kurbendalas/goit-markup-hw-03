@@ -45,7 +45,7 @@ ul {
 /* 768px <-- Tablet screen <-- Infinity */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 768px;
   }
 }
 /* 1200px <-- Phone screen <-- Infinity */
@@ -239,6 +239,7 @@ body {
     width: 396px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .section-advantages-title {
     font-weight: 700;
@@ -258,6 +259,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     width: 356px;
+    margin-bottom: 48px;
   }
   .section-advanteges-alltext {
     width: 356px;
@@ -265,11 +267,12 @@ body {
   .advanteges-txt {
     display: flex;
     gap: 24px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .section-advantages-title {
     font-family: 'Roboto';
