@@ -21,19 +21,17 @@
     <script src="./js/modal.js"></script>
     <!-- HEDER -->
     <header class="header">
-      <div class="menu container">
+      <div class="container menu">
         <nav class="navigation">
           <a class="logo link" href="./index.html"
             >WEB <span class="logo-txt">STUDIO</span></a
           >
           <ul class="list items">
             <li>
-              <a class="menu-link link" href="./index.html">Studio</a>
+              <a class="menu-link current link" href="./index.html">Studio</a>
             </li>
             <li>
-              <a class="menu-link current link" href="./portfolio.html"
-                >Portfolio</a
-              >
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
             </li>
             <li>
               <a class="menu-link link" href="">Contact</a>
@@ -52,6 +50,25 @@
             >
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            width="24"
+            height="24"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -353,5 +370,77 @@
         </div>
       </div>
     </footer>
+    <!-- MOBILE MENU -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          class="mobile-menu-close"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="8"
+          height="8"
+        >
+          <use class="mobile-menu-close-bg" href="./img/icons.svg#close"></use>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li><a href="./index.html" class="mobile-menu-nav link">Studio</a></li>
+        <li>
+          <a href="./portfolio.html" class="mobile-menu-nav link">Portfolio</a>
+        </li>
+        <li><a href="" class="mobile-menu-nav link">Contacts</a></li>
+      </ul>
+      <ul class="list mobile-menu-contact">
+        <li>
+          <a class="link mobile-menu-phone" href="tel:+110001111111"
+            >+11 (000) 111 11 11</a
+          >
+        </li>
+        <li>
+          <a class="link mobile-menu-email" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+      </ul>
+      <ul class="list team-icon-all">
+        <li class="team-icon-bg">
+          <a class="link social-team" href="http://">
+            <svg class="team-icon" width="24px" height="24px">
+              <use class="icon-team" href="./img/icons.svg#instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-icon-bg">
+          <a class="link social-team" href="http://">
+            <svg class="team-icon" width="24px" height="24px">
+              <use class="icon-team" href="./img/icons.svg#twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-icon-bg">
+          <a class="link social-team" href="http://">
+            <svg class="team-icon" width="24px" height="24px">
+              <use class="icon-team" href="./img/icons.svg#facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="team-icon-bg">
+          <a class="link social-team" href="http://">
+            <svg class="team-icon" width="24px" height="24px">
+              <use class="icon-team" href="./img/icons.svg#linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
