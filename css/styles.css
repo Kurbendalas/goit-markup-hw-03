@@ -72,6 +72,9 @@ body {
   .logo {
     margin: 0 0 0 16px;
   }
+  .btn-0 {
+    margin: 0 auto;
+  }
   .menu-toggle {
     padding: 0;
     margin-left: auto;
@@ -779,7 +782,7 @@ body {
     margin-left: 16px;
   }
   .btn-1 {
-    margin-right: 20px;
+    margin-right: 50px;
   }
   .button {
     padding: 8px 16px;
