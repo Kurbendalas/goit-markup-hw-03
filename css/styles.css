@@ -29,17 +29,17 @@ ul {
   border: none;
   cursor: pointer;
 }
-@media screen and (min-width: 768px) {
-  .container {
-    /* 320px <-- Phone screen <-- Infinity */
-    min-width: 320px;
-    max-width: 450px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.container {
+  /* 320px <-- Phone screen <-- Infinity */
+
+  min-width: 320px;
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /* 768px <-- Tablet screen <-- Infinity */
 @media screen and (min-width: 768px) {
   .container {
@@ -96,6 +96,9 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
+  .logo {
+    margin-left: 0;
+  }
   .items {
     display: flex;
     gap: 40px;
@@ -198,20 +201,53 @@ body {
   color: #2e2f42;
 }
 /* hero */
-.hero-beck {
-  padding-top: 188px;
-  padding-bottom: 188px;
-  text-align: center;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../img/brckground/people-office.jpg);
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 1440px;
+@media screen and (min-width: 320px) {
+  .hero-beck {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/brckground/people-office.jpg);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
+@media screen and (min-width: 768px) {
+  .hero-beck {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/brckground/people-office.jpg);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-beck {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../img/brckground/people-office.jpg);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
+  }
+}
+
 .hero {
   font-weight: 700;
   font-size: 56px;
@@ -249,6 +285,9 @@ body {
   padding: 120px 0px;
 }
 @media screen and (min-width: 320px) {
+  .section-advantages {
+    padding-top: 96px;
+  }
   .advanteges-txt {
     display: flex;
     flex-wrap: wrap;
@@ -267,7 +306,6 @@ body {
     margin-bottom: 8px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8px;
     display: flex;
     justify-content: center;
   }
@@ -295,10 +333,9 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 8px;
+    margin-bottom: 0;
     display: flex;
     justify-content: flex-start;
   }
@@ -307,14 +344,13 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     width: 356px;
-    margin-bottom: 48px;
   }
   .section-advanteges-alltext {
     width: 356px;
   }
   .advanteges-txt {
     display: flex;
-    gap: 24px;
+    gap: 72px 24px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
@@ -419,8 +455,12 @@ body {
   .section-team-items {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
     margin-bottom: 40px;
+    justify-content: center;
+  }
+  .team-photo-beck {
+    margin: 0;
   }
 }
 .section-team {
@@ -503,7 +543,7 @@ body {
   .customers-icon-all {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 72px 16px;
     justify-content: center;
   }
   .bg-customers-icon {
@@ -513,7 +553,6 @@ body {
     border: 1px solid #8e8f99;
     border-radius: 4px;
     width: 168px;
-    margin-bottom: 56px;
     height: 88px;
     color: #8e8f99;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -523,7 +562,7 @@ body {
   .customers-icon-all {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
     justify-content: center;
   }
   .bg-customers-icon {
@@ -586,7 +625,7 @@ body {
 @media screen and (min-width: 320px) {
   .all-footer {
     display: flex;
-    gap: 120px;
+    gap: 72px;
     flex-wrap: wrap;
   }
   .container-footer {
@@ -619,6 +658,9 @@ body {
   }
   .footer-btn {
     margin: 16px auto;
+  }
+  .input-footer {
+    width: 396px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -658,6 +700,9 @@ body {
     margin: 16px auto;
     flex-direction: row;
   }
+  .input-footer {
+    width: 264px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .all-footer {
@@ -681,6 +726,9 @@ body {
   .subscribe-form-txt {
   }
   .footer-btn {
+  }
+  .input-footer {
+    width: 264px;
   }
 }
 
@@ -765,7 +813,6 @@ body {
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  width: 264px;
   height: 40px;
   margin-top: 16px;
   border-radius: 4px;
@@ -785,7 +832,7 @@ body {
     margin-right: 50px;
   }
   .button {
-    padding: 8px 16px;
+    padding: 16px 32px;
   }
   .gallery {
     justify-content: center;
@@ -1238,10 +1285,9 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 32px;
   background-color: #ffffff;
   z-index: 999;
-
+  overflow: auto;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
@@ -1287,12 +1333,13 @@ body {
 }
 
 .mobile-menu-phone {
-  color: #434455;
+  color: #4d5ae5;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.11;
+  margin-bottom: 40px;
 }
 .mobile-menu-email {
   font-family: 'Roboto';
@@ -1325,4 +1372,29 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-menu-icon-all {
+  padding-left: 40px;
+  margin-top: 8px;
+  gap: 56px;
+  display: flex;
+  transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu-icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-icon {
+  fill: white;
+}
+.mobile-menu-icon:hover,
+.mobile-menu-icon:focus {
+  background: #404bbf;
 }
