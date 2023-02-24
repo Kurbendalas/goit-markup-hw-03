@@ -215,14 +215,17 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../img/brckground/people-office.jpg);
+      url(../img/brckground/bg-phone.png);
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 428px;
   }
 }
 @media screen and (min-width: 768px) {
   .hero-beck {
+    min-width: 429px;
+    max-width: 768px;
     padding-top: 112px;
     padding-bottom: 112px;
     text-align: center;
@@ -230,7 +233,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../img/brckground/people-office.jpg);
+      url(../img/brckground/bg-tablet.jpg);
     margin: 0 auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -354,6 +357,7 @@ body {
     justify-content: flex-start;
   }
   .section-advantages-txt {
+    margin-top: 8px;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -1372,8 +1376,8 @@ body {
   margin-bottom: 48px;
 }
 .mobile-menu-close {
-  width: 8px;
-  height: 8px;
+  width: 32px;
+  height: 22px;
   fill: #000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
